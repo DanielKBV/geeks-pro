@@ -5,7 +5,6 @@ const BASE_URL = 'https://pokeapi.co/api/v2/pokemon/'
 
 export const App = () => {
   const [dataPokemon, setPataPokemon] = useState([])
-  console.log('dataPokemon: ', dataPokemon[0]?.url)
 
   const getPokemon = async () => {
     try {
